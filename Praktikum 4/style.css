@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 1000px) {
+  #content,
+aside {
+  width: 100%;
+  pad: 0;
+}   
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+aside {
+  padding: 20px 0;
+}
+.us table {
+  margin: 0 auto;
+}
+.about h2 {
+  color: #fff;
+  z-index: 1;
+  padding: 20px 25px;
+  border: 3px solid #fff;
+}
+.activity {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+}
+.activity:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.activity ul li {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 56px;
+  text-align: center;
+  color: #666;
+}
+.about p {
+  color: #666;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+.active {
+  background-color: #666;
+  color: #fff;
+}
+.album ul li {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.card {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0 ,0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#content {
+  width: 100%;
+}
+.dots {
+  display: auto;
+  justify-content: center;
+  margin: 5px;
+}
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #666;
+  text-align: center;
+ font-weight: bold;   
+}
+figure {
+  margin-top: 20px;
+}
+.gfriend {
+  height: 60vh;
+  background-image: url('Image/gfriend.jpg') ;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gfriend:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.gfriend h2 {
+  color: #fff;
+  z-index: 1;
+  padding: 20px 25px;
+  border: 3px solid #fff;
+}
+header h1 {
+  float: left;
+  padding: 15px 0;
+  color: #666;
+}
+header ul {
+  float: right;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  padding: 25px 20px;
+  display: inline-block;
+}
+header ul li a:hover {
+  background-color: #666;
+  color: #fff;
+  font-weight: bold;
+}
+.images {
+  display: auto;
+  width: 100%;
+}
+.images img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.15s ease;
+}
+.images input {
+  display: auto;
+  justify-content: center;
+}
+
+.medsos {
+  padding: 15px 0;
+  background-color: #666;
+}
+.medsos ul li {
+  display: inline-block;
+  color: white;
+  margin-right: 10px;
+}
+nav ul li {
+  background-color: #666;
+  position: sticky;
+  top: 0;
+  color: #fff;
+}
+.profile {
+  text-align: center;
+}
+.profile img {
+   width: auto;
+}
+section {
+  padding: 50px 0;
+}
+section h3 {
+  text-align: center;
+  padding: 20px 0;
+  color: #666;
+  margin-bottom: 20px;
+}
+section h4 {
+  text-align: center;
+  padding: 20px 0;
+  color: #666;
+  margin-bottom: 20px;
+}
+section h5 {
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.slider {
+  position: relative;
+  width: 100%;
+}
+
+
+
+
+
+
